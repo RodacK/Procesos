@@ -7,11 +7,12 @@ import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 public class ProcesoController {
-	 private Queue processList = new Queue();
+	private Queue processList = null;
 
-	 public ProcesoController(){}
+	public ProcesoController() {
+	}
 
-	 public void runProcess(){
+	public void runProcess() {
 
-	 }
+	}
 }
